@@ -1,0 +1,10 @@
+{
+  "name": "codex-howto",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "node --test scripts/validate-docs.test.mjs",
+    "validate": "node scripts/validate-docs.mjs",
+    "check": "npm run test && npm run validate"
+  }
+}
