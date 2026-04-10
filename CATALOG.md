@@ -33,11 +33,19 @@ This page is the fastest way to scan what the repository contains.
   - CI fixes
   - publishing
 - [06-connectors-and-tools/README.md](06-connectors-and-tools/README.md)
-  - light connector guidance
+  - MCP workflow
+  - Slack and Linear handoff
+  - external context checklist
 - [07-openai-adjacent/README.md](07-openai-adjacent/README.md)
   - related official OpenAI context
+  - Codex surfaces
+  - configuration and customization
 - [08-examples/README.md](08-examples/README.md)
   - end-to-end workflows
+- [09-automation/README.md](09-automation/README.md)
+  - GitHub Action workflow
+  - non-interactive workflow
+  - SDK workflow
 
 ## Templates
 
@@ -54,6 +62,9 @@ This page is the fastest way to scan what the repository contains.
 - [08-examples/bugfix-from-orientation-to-verification.md](08-examples/bugfix-from-orientation-to-verification.md)
 - [08-examples/review-response-workflow.md](08-examples/review-response-workflow.md)
 - [08-examples/docs-update-with-validation.md](08-examples/docs-update-with-validation.md)
+- [08-examples/linear-to-local-finish.md](08-examples/linear-to-local-finish.md)
+- [08-examples/github-action-pr-review.md](08-examples/github-action-pr-review.md)
+- [08-examples/mcp-frontend-context.md](08-examples/mcp-frontend-context.md)
 
 ## Scripts
 

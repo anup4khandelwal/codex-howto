@@ -48,6 +48,8 @@ Start with [05-github-workflows/README.md](05-github-workflows/README.md), then 
 - how to plan work before implementation
 - how to use skills for disciplined workflows instead of ad hoc prompting
 - how to delegate bounded work when parallelism actually helps
+- how to choose between CLI, IDE, cloud, GitHub, and integration-backed workflows
+- how to use MCP and automation without losing review discipline
 - how to review, verify, and ship changes without skipping evidence
 
 ## Repository Map
@@ -59,9 +61,10 @@ Start with [05-github-workflows/README.md](05-github-workflows/README.md), then 
 - [03-skills/](03-skills/): skill-driven workflows
 - [04-subagents/](04-subagents/): explicit delegation patterns
 - [05-github-workflows/](05-github-workflows/): review, CI, and publishing
-- [06-connectors-and-tools/](06-connectors-and-tools/): connector usage boundaries
-- [07-openai-adjacent/](07-openai-adjacent/): related official OpenAI context
+- [06-connectors-and-tools/](06-connectors-and-tools/): MCP and connector-backed workflows
+- [07-openai-adjacent/](07-openai-adjacent/): Codex surfaces and configuration boundaries
 - [08-examples/](08-examples/): full workflows from start to finish
+- [09-automation/](09-automation/): GitHub Action, SDK, and non-interactive workflows
 - [templates/](templates/): prompts, checklists, and handoff artifacts
 
 ## Working Principles

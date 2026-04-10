@@ -21,10 +21,11 @@ Start here if you already know agentic tooling but need the right mental model f
 1. [01-getting-started/switching-from-claude-or-cursor.md](01-getting-started/switching-from-claude-or-cursor.md)
 2. [03-skills/README.md](03-skills/README.md)
 3. [04-subagents/README.md](04-subagents/README.md)
-4. [05-github-workflows/README.md](05-github-workflows/README.md)
-5. [08-examples/review-response-workflow.md](08-examples/review-response-workflow.md)
+4. [07-openai-adjacent/codex-surfaces.md](07-openai-adjacent/codex-surfaces.md)
+5. [05-github-workflows/README.md](05-github-workflows/README.md)
+6. [08-examples/review-response-workflow.md](08-examples/review-response-workflow.md)
 
-Estimated time: 75 to 105 minutes
+Estimated time: 90 to 120 minutes
 
 ## Path 3: Power User
 
@@ -33,10 +34,11 @@ Start here if you want disciplined planning, review, delegation, and GitHub exec
 1. [02-working-in-a-repo/plan-a-change.md](02-working-in-a-repo/plan-a-change.md)
 2. [03-skills/brainstorming-to-plan.md](03-skills/brainstorming-to-plan.md)
 3. [04-subagents/task-design.md](04-subagents/task-design.md)
-4. [05-github-workflows/fix-ci.md](05-github-workflows/fix-ci.md)
-5. [08-examples/docs-update-with-validation.md](08-examples/docs-update-with-validation.md)
+4. [06-connectors-and-tools/mcp-workflow.md](06-connectors-and-tools/mcp-workflow.md)
+5. [09-automation/README.md](09-automation/README.md)
+6. [08-examples/docs-update-with-validation.md](08-examples/docs-update-with-validation.md)
 
-Estimated time: 90 to 120 minutes
+Estimated time: 120 to 150 minutes
 
 ## Recommended Module Order
 
@@ -48,6 +50,7 @@ Estimated time: 90 to 120 minutes
 6. [06-connectors-and-tools](06-connectors-and-tools/)
 7. [07-openai-adjacent](07-openai-adjacent/)
 8. [08-examples](08-examples/)
+9. [09-automation](09-automation/)
 
 ## How to Use This Path
 
