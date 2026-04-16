@@ -1,0 +1,81 @@
+name: Codex issue to plan
+
+on:
+  issues:
+    types:
+      - labeled
+
+jobs:
+  codex-plan:
+    if: github.event.label.name == 'codex-plan'
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      issues: write
+    outputs:
+      final_message: ${{ steps.run_codex.outputs.final-message }}
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v5
+
+      - name: Build prompt from issue context
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const fs = require("fs");
+            const template = fs.readFileSync(".github/prompts/issue-to-plan.md", "utf8");
+            const issue = context.payload.issue;
+            const issueContext = [
+              "",
+              "## Issue Context",
+              "",
+              `- Repository: ${context.repo.owner}/${context.repo.repo}`,
+              `- Issue: #${issue.number}`,
+              `- URL: ${issue.html_url}`,
+              `- Author: ${issue.user.login}`,
+              "",
+              "### Title",
+              issue.title,
+              "",
+              "### Body",
+              issue.body || "(no body provided)",
+              "",
+            ].join("\n");
+
+            fs.writeFileSync(
+              ".github/prompts/runtime-issue-to-plan.md",
+              `${template}\n${issueContext}`,
+            );
+
+      - name: Run Codex in read-only mode
+        id: run_codex
+        uses: openai/codex-action@v1
+        with:
+          openai-api-key: ${{ secrets.OPENAI_API_KEY }}
+          prompt-file: .github/prompts/runtime-issue-to-plan.md
+          sandbox: read-only
+          output-file: codex-issue-plan.md
+          effort: medium
+
+      - name: Post plan back to the issue
+        if: steps.run_codex.outputs.final-message != ''
+        uses: actions/github-script@v7
+        env:
+          CODEX_FINAL_MESSAGE: ${{ steps.run_codex.outputs.final-message }}
+        with:
+          github-token: ${{ github.token }}
+          script: |
+            const body = [
+              "## Codex issue plan",
+              "",
+              "Triggered by the `codex-plan` label.",
+              "",
+              process.env.CODEX_FINAL_MESSAGE,
+            ].join("\n");
+
+            await github.rest.issues.createComment({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              issue_number: context.payload.issue.number,
+              body,
+            });

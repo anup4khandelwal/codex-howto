@@ -17,6 +17,8 @@ Some tasks start in CI, GitHub, scripts, or internal tools. Those workflows need
 
 - [github-action-workflow.md](github-action-workflow.md)
 - [non-interactive-workflow.md](non-interactive-workflow.md)
+- [../.github/prompts/issue-to-plan.md](../.github/prompts/issue-to-plan.md)
+- [../.github/workflows/codex-issue-plan.yml](../.github/workflows/codex-issue-plan.yml)
 
 ## Common mistakes
 
