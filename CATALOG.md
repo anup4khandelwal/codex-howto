@@ -57,6 +57,16 @@ This page is the fastest way to scan what the repository contains.
 - [templates/repo-orientation-prompt.md](templates/repo-orientation-prompt.md)
 - [templates/verification-checklist.md](templates/verification-checklist.md)
 
+## Starter Kit
+
+- [AGENTS.md](AGENTS.md): persistent repo instructions for Codex
+- [.codex/skills/issue-to-plan/SKILL.md](.codex/skills/issue-to-plan/SKILL.md): turn an issue into a bounded plan
+- [.codex/skills/fix-ci/SKILL.md](.codex/skills/fix-ci/SKILL.md): CI debugging workflow
+- [.codex/skills/review-pr/SKILL.md](.codex/skills/review-pr/SKILL.md): findings-first review workflow
+- [.codex/skills/small-feature/SKILL.md](.codex/skills/small-feature/SKILL.md): bounded feature implementation workflow
+- [.github/prompts/issue-to-plan.md](.github/prompts/issue-to-plan.md): reviewable prompt contract for issue planning
+- [.github/workflows/codex-issue-plan.yml](.github/workflows/codex-issue-plan.yml): label-triggered issue-to-plan automation
+
 ## End-to-End Examples
 
 - [08-examples/bugfix-from-orientation-to-verification.md](08-examples/bugfix-from-orientation-to-verification.md)

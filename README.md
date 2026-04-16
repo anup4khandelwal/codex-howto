@@ -1,6 +1,6 @@
 # Codex How To
 
-A practical, workflow-first guide for using Codex well in a real repository.
+A practical, workflow-first guide and starter kit for using Codex well in a real repository.
 
 This repo is for three kinds of users at once:
 
@@ -12,6 +12,7 @@ This repo is for three kinds of users at once:
 
 - A Codex-native guide organized around real work, not around renamed feature lists.
 - A set of copy-paste templates, checklists, and examples you can reuse in your own repos.
+- A small Codex-ready starter kit with `AGENTS.md`, reusable skills, and a GitHub workflow.
 - A learning path that starts small and scales up to planning, delegation, review, and shipping.
 
 ## What This Repo Is Not
@@ -20,12 +21,20 @@ This repo is for three kinds of users at once:
 - It is not a Claude guide with superficial word substitution.
 - It is not a bag of generic prompts with no operational discipline behind them.
 
+## Starter Kit
+
+- [AGENTS.md](AGENTS.md): persistent repo instructions for Codex
+- [.codex/skills/](.codex/skills/): starter workflow pack for planning, PR review, CI fixes, and small features
+- [.github/prompts/issue-to-plan.md](.github/prompts/issue-to-plan.md): reviewable prompt contract for issue planning
+- [.github/workflows/codex-issue-plan.yml](.github/workflows/codex-issue-plan.yml): label-triggered automation that turns an issue into a Codex plan comment
+
 ## 15-Minute Quick Start
 
 1. Read [01-getting-started/first-15-minutes.md](01-getting-started/first-15-minutes.md).
-2. Copy [templates/repo-orientation-prompt.md](templates/repo-orientation-prompt.md) into your first real Codex session.
-3. Keep [02-working-in-a-repo/verify-before-completion.md](02-working-in-a-repo/verify-before-completion.md) open while you work.
-4. Pick the next section that matches your experience level.
+2. Copy [AGENTS.md](AGENTS.md) and the pieces you want from [.codex/skills/](.codex/skills/) into your own repo.
+3. Copy [templates/repo-orientation-prompt.md](templates/repo-orientation-prompt.md) into your first real Codex session.
+4. Keep [02-working-in-a-repo/verify-before-completion.md](02-working-in-a-repo/verify-before-completion.md) open while you work.
+5. Pick the next section that matches your experience level.
 
 ## Choose Your Path
 
@@ -66,6 +75,9 @@ Start with [05-github-workflows/README.md](05-github-workflows/README.md), then 
 - [08-examples/](08-examples/): full workflows from start to finish
 - [09-automation/](09-automation/): GitHub Action, SDK, and non-interactive workflows
 - [templates/](templates/): prompts, checklists, and handoff artifacts
+- [AGENTS.md](AGENTS.md): persistent repo contract example
+- [.codex/skills/](.codex/skills/): reusable starter skill pack
+- [.github/workflows/](.github/workflows/): sample Codex automation
 
 ## Working Principles
 

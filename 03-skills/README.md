@@ -14,6 +14,10 @@ Skills are how this environment enforces disciplined workflows. They are not dec
 
 - [../templates/spec-template.md](../templates/spec-template.md)
 - [../templates/implementation-plan-template.md](../templates/implementation-plan-template.md)
+- [../.codex/skills/issue-to-plan/SKILL.md](../.codex/skills/issue-to-plan/SKILL.md)
+- [../.codex/skills/fix-ci/SKILL.md](../.codex/skills/fix-ci/SKILL.md)
+- [../.codex/skills/review-pr/SKILL.md](../.codex/skills/review-pr/SKILL.md)
+- [../.codex/skills/small-feature/SKILL.md](../.codex/skills/small-feature/SKILL.md)
 
 ## Common mistakes
 
