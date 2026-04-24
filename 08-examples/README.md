@@ -10,8 +10,9 @@ These examples connect the earlier modules into complete workflows instead of is
 2. review response workflow
 3. docs update with validation
 4. Linear to local finish
-5. GitHub Action PR review
-6. MCP frontend context
+5. GitHub comment to cloud task
+6. GitHub Action PR review
+7. MCP frontend context
 
 ## How to Use Them
 

@@ -7,6 +7,7 @@ Much of Codex's practical value shows up in review, CI triage, and shipping. The
 ## Core concepts
 
 - review for bugs and risks first
+- use GitHub-native Codex when the pull request thread is the source of truth
 - treat CI failures as debugging tasks, not vibes
 - publish intentionally with a clean summary
 
@@ -18,12 +19,14 @@ Much of Codex's practical value shows up in review, CI triage, and shipping. The
 ## Common mistakes
 
 - leading with summaries instead of findings
+- using GitHub-native Codex for work that depends on local uncommitted state
 - guessing at CI failures without reading logs
 - publishing changes before verification is complete
 
 ## Read next
 
 - [review-a-pr.md](review-a-pr.md)
+- [use-codex-in-github.md](use-codex-in-github.md)
 - [address-review-comments.md](address-review-comments.md)
 - [fix-ci.md](fix-ci.md)
 - [publish-changes.md](publish-changes.md)
