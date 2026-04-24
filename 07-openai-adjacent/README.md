@@ -14,3 +14,5 @@ Useful boundaries:
 
 - [codex-surfaces.md](codex-surfaces.md)
 - [configuration-customization.md](configuration-customization.md)
+- [approvals-and-sandboxing.md](approvals-and-sandboxing.md)
+- [rules-and-hooks.md](rules-and-hooks.md)

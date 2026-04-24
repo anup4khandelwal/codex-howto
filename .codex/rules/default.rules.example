@@ -1,0 +1,44 @@
+# Copy to ~/.codex/rules/default.rules or ./.codex/rules/default.rules.
+
+prefix_rule(
+    pattern = ["gh", "pr", "view"],
+    decision = "prompt",
+    justification = "Viewing PRs outside the sandbox is allowed with approval.",
+    match = [
+        "gh pr view 2",
+        "gh pr view --repo anup4khandelwal/codex-howto",
+    ],
+)
+
+prefix_rule(
+    pattern = ["git", "reset", "--hard"],
+    decision = "forbidden",
+    justification = "Do not discard local changes automatically. Inspect the worktree and ask first.",
+    match = [
+        "git reset --hard",
+        "git reset --hard HEAD~1",
+    ],
+)
+
+prefix_rule(
+    pattern = ["git", "clean", ["-fd", "-fdx"]],
+    decision = "forbidden",
+    justification = "Do not delete untracked files automatically. Inspect the worktree and ask first.",
+    match = [
+        "git clean -fd",
+        "git clean -fdx",
+    ],
+    not_match = [
+        "git clean -n",
+    ],
+)
+
+prefix_rule(
+    pattern = ["npm", "publish"],
+    decision = "prompt",
+    justification = "Publishing is a release action and needs an explicit human check.",
+    match = [
+        "npm publish",
+        "npm publish --tag next",
+    ],
+)
