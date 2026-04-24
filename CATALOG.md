@@ -29,6 +29,7 @@ This page is the fastest way to scan what the repository contains.
   - review of worker results
 - [05-github-workflows/README.md](05-github-workflows/README.md)
   - PR review
+  - GitHub-native `@codex` review and follow-up tasks
   - review comments
   - CI fixes
   - publishing
@@ -73,6 +74,7 @@ This page is the fastest way to scan what the repository contains.
 - [08-examples/review-response-workflow.md](08-examples/review-response-workflow.md)
 - [08-examples/docs-update-with-validation.md](08-examples/docs-update-with-validation.md)
 - [08-examples/linear-to-local-finish.md](08-examples/linear-to-local-finish.md)
+- [08-examples/github-comment-to-cloud-task.md](08-examples/github-comment-to-cloud-task.md)
 - [08-examples/github-action-pr-review.md](08-examples/github-action-pr-review.md)
 - [08-examples/mcp-frontend-context.md](08-examples/mcp-frontend-context.md)
 
