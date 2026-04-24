@@ -33,6 +33,7 @@ export const REQUIRED_FILES = [
   "05-github-workflows/publish-changes.md",
   "06-connectors-and-tools/README.md",
   "06-connectors-and-tools/mcp-workflow.md",
+  "06-connectors-and-tools/docs-mcp-starter-kit.md",
   "06-connectors-and-tools/slack-linear-handoff.md",
   "06-connectors-and-tools/external-context-checklist.md",
   "07-openai-adjacent/README.md",
@@ -46,6 +47,7 @@ export const REQUIRED_FILES = [
   "08-examples/docs-update-with-validation.md",
   "08-examples/linear-to-local-finish.md",
   "08-examples/github-action-pr-review.md",
+  "08-examples/openai-docs-mcp-lookup.md",
   "08-examples/safe-automation-with-approvals.md",
   "08-examples/github-comment-to-cloud-task.md",
   "08-examples/mcp-frontend-context.md",
@@ -64,6 +66,7 @@ export const REQUIRED_FILES = [
   ".codex/rules/default.rules.example",
   ".codex/hooks.json.example",
   ".codex/hooks/README.md",
+  ".vscode/mcp.json.example",
   "assets/workflow-map.mmd",
   "assets/github-review-loop.mmd",
 ];

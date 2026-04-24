@@ -12,8 +12,9 @@ These examples connect the earlier modules into complete workflows instead of is
 4. Linear to local finish
 5. GitHub comment to cloud task
 6. GitHub Action PR review
-7. safe automation with approvals
-8. MCP frontend context
+7. OpenAI docs MCP lookup
+8. safe automation with approvals
+9. MCP frontend context
 
 ## How to Use Them
 

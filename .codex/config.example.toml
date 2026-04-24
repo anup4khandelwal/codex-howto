@@ -11,6 +11,10 @@ project_doc_fallback_filenames = ["TEAM_GUIDE.md", ".agents.md"]
 [features]
 codex_hooks = true
 
+# Optional Docs MCP server for current OpenAI and Codex documentation lookups.
+[mcp_servers.openaiDeveloperDocs]
+url = "https://developers.openai.com/mcp"
+
 # Keep network disabled by default in workspace-write mode.
 # Uncomment this only for workflows that truly need network access.
 # [sandbox_workspace_write]

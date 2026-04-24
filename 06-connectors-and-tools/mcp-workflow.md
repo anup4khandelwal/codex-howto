@@ -17,6 +17,8 @@ Use MCP when the task needs a live tool, service, or structured knowledge source
 4. summarize the evidence before editing
 5. verify the local result with repo checks
 
+If the question is specifically about OpenAI APIs, ChatGPT Apps SDK, or Codex behavior, use [docs-mcp-starter-kit.md](docs-mcp-starter-kit.md) as the first setup path instead of a generic MCP workflow.
+
 ## Avoid
 
 - using MCP for facts already available in the checkout

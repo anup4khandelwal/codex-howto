@@ -10,12 +10,14 @@ Codex can work with local files, connected services, MCP servers, and external w
 
 - stay local when the repo contains enough evidence
 - use MCP when a tool or knowledge source must be queried during the task
+- use Docs MCP when the question is specifically about current OpenAI or Codex behavior
 - use Slack, Linear, and GitHub integrations when the work starts outside the terminal
 - treat connector output as evidence, not as a substitute for verification
 
 ## Copy-paste assets
 
 - [mcp-workflow.md](mcp-workflow.md)
+- [docs-mcp-starter-kit.md](docs-mcp-starter-kit.md)
 - [external-context-checklist.md](external-context-checklist.md)
 
 ## Common mistakes
@@ -28,5 +30,6 @@ Codex can work with local files, connected services, MCP servers, and external w
 ## Read next
 
 - [mcp-workflow.md](mcp-workflow.md)
+- [docs-mcp-starter-kit.md](docs-mcp-starter-kit.md)
 - [slack-linear-handoff.md](slack-linear-handoff.md)
 - [external-context-checklist.md](external-context-checklist.md)

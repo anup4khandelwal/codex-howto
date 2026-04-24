@@ -35,6 +35,7 @@ This page is the fastest way to scan what the repository contains.
   - publishing
 - [06-connectors-and-tools/README.md](06-connectors-and-tools/README.md)
   - MCP workflow
+  - Docs MCP starter kit
   - Slack and Linear handoff
   - external context checklist
 - [07-openai-adjacent/README.md](07-openai-adjacent/README.md)
@@ -64,6 +65,7 @@ This page is the fastest way to scan what the repository contains.
 
 - [AGENTS.md](AGENTS.md): persistent repo instructions for Codex
 - [.codex/config.example.toml](.codex/config.example.toml): safe starting profiles for approvals, sandboxing, and hooks
+- [.vscode/mcp.json.example](.vscode/mcp.json.example): example Docs MCP config for editor workflows
 - [.codex/skills/issue-to-plan/SKILL.md](.codex/skills/issue-to-plan/SKILL.md): turn an issue into a bounded plan
 - [.codex/skills/fix-ci/SKILL.md](.codex/skills/fix-ci/SKILL.md): CI debugging workflow
 - [.codex/skills/review-pr/SKILL.md](.codex/skills/review-pr/SKILL.md): findings-first review workflow
@@ -82,6 +84,7 @@ This page is the fastest way to scan what the repository contains.
 - [08-examples/linear-to-local-finish.md](08-examples/linear-to-local-finish.md)
 - [08-examples/github-comment-to-cloud-task.md](08-examples/github-comment-to-cloud-task.md)
 - [08-examples/github-action-pr-review.md](08-examples/github-action-pr-review.md)
+- [08-examples/openai-docs-mcp-lookup.md](08-examples/openai-docs-mcp-lookup.md)
 - [08-examples/safe-automation-with-approvals.md](08-examples/safe-automation-with-approvals.md)
 - [08-examples/mcp-frontend-context.md](08-examples/mcp-frontend-context.md)
 

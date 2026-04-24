@@ -26,6 +26,7 @@ This repo is for three kinds of users at once:
 - [AGENTS.md](AGENTS.md): persistent repo instructions for Codex
 - [.codex/skills/](.codex/skills/): starter workflow pack for planning, PR review, CI fixes, and small features
 - [.codex/config.example.toml](.codex/config.example.toml): safe starting profiles for approvals, sandboxing, and hooks
+- [.vscode/mcp.json.example](.vscode/mcp.json.example): starter Docs MCP config for editor-based workflows
 - [.codex/rules/default.rules.example](.codex/rules/default.rules.example): reviewable outside-sandbox command rules
 - [.codex/hooks.json.example](.codex/hooks.json.example): starter hook configuration
 - [.codex/hooks/README.md](.codex/hooks/README.md): copy-paste hook patterns
@@ -64,6 +65,7 @@ Start with [05-github-workflows/README.md](05-github-workflows/README.md), then 
 - how to choose between CLI, IDE, cloud, GitHub, and integration-backed workflows
 - how to use GitHub-native `@codex` review and follow-up tasks without skipping human review
 - how to choose safe approval, sandbox, rules, and hook defaults before you automate
+- how to set up Docs MCP so OpenAI-specific answers come from current docs instead of memory
 - how to use MCP and automation without losing review discipline
 - how to review, verify, and ship changes without skipping evidence
 
@@ -76,7 +78,7 @@ Start with [05-github-workflows/README.md](05-github-workflows/README.md), then 
 - [03-skills/](03-skills/): skill-driven workflows
 - [04-subagents/](04-subagents/): explicit delegation patterns
 - [05-github-workflows/](05-github-workflows/): review, GitHub-native cloud tasks, CI, and publishing
-- [06-connectors-and-tools/](06-connectors-and-tools/): MCP and connector-backed workflows
+- [06-connectors-and-tools/](06-connectors-and-tools/): MCP, Docs MCP, and connector-backed workflows
 - [07-openai-adjacent/](07-openai-adjacent/): Codex surfaces, configuration, approvals, and hooks
 - [08-examples/](08-examples/): full workflows from start to finish
 - [09-automation/](09-automation/): GitHub Action, SDK, and non-interactive workflows

@@ -35,12 +35,14 @@ Start here if you want disciplined planning, review, delegation, and GitHub exec
 2. [03-skills/brainstorming-to-plan.md](03-skills/brainstorming-to-plan.md)
 3. [04-subagents/task-design.md](04-subagents/task-design.md)
 4. [06-connectors-and-tools/mcp-workflow.md](06-connectors-and-tools/mcp-workflow.md)
-5. [07-openai-adjacent/approvals-and-sandboxing.md](07-openai-adjacent/approvals-and-sandboxing.md)
-6. [07-openai-adjacent/rules-and-hooks.md](07-openai-adjacent/rules-and-hooks.md)
-7. [09-automation/README.md](09-automation/README.md)
-8. [08-examples/safe-automation-with-approvals.md](08-examples/safe-automation-with-approvals.md)
+5. [06-connectors-and-tools/docs-mcp-starter-kit.md](06-connectors-and-tools/docs-mcp-starter-kit.md)
+6. [08-examples/openai-docs-mcp-lookup.md](08-examples/openai-docs-mcp-lookup.md)
+7. [07-openai-adjacent/approvals-and-sandboxing.md](07-openai-adjacent/approvals-and-sandboxing.md)
+8. [07-openai-adjacent/rules-and-hooks.md](07-openai-adjacent/rules-and-hooks.md)
+9. [09-automation/README.md](09-automation/README.md)
+10. [08-examples/safe-automation-with-approvals.md](08-examples/safe-automation-with-approvals.md)
 
-Estimated time: 150 to 180 minutes
+Estimated time: 180 to 210 minutes
 
 ## Recommended Module Order
 
