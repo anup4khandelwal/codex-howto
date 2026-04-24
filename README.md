@@ -12,7 +12,7 @@ This repo is for three kinds of users at once:
 
 - A Codex-native guide organized around real work, not around renamed feature lists.
 - A set of copy-paste templates, checklists, and examples you can reuse in your own repos.
-- A small Codex-ready starter kit with `AGENTS.md`, reusable skills, and a GitHub workflow.
+- A small Codex-ready starter kit with `AGENTS.md`, reusable skills, safe config examples, and a GitHub workflow.
 - A learning path that starts small and scales up to planning, delegation, review, and shipping.
 
 ## What This Repo Is Not
@@ -25,13 +25,17 @@ This repo is for three kinds of users at once:
 
 - [AGENTS.md](AGENTS.md): persistent repo instructions for Codex
 - [.codex/skills/](.codex/skills/): starter workflow pack for planning, PR review, CI fixes, and small features
+- [.codex/config.example.toml](.codex/config.example.toml): safe starting profiles for approvals, sandboxing, and hooks
+- [.codex/rules/default.rules.example](.codex/rules/default.rules.example): reviewable outside-sandbox command rules
+- [.codex/hooks.json.example](.codex/hooks.json.example): starter hook configuration
+- [.codex/hooks/README.md](.codex/hooks/README.md): copy-paste hook patterns
 - [.github/prompts/issue-to-plan.md](.github/prompts/issue-to-plan.md): reviewable prompt contract for issue planning
 - [.github/workflows/codex-issue-plan.yml](.github/workflows/codex-issue-plan.yml): label-triggered automation that turns an issue into a Codex plan comment
 
 ## 15-Minute Quick Start
 
 1. Read [01-getting-started/first-15-minutes.md](01-getting-started/first-15-minutes.md).
-2. Copy [AGENTS.md](AGENTS.md) and the pieces you want from [.codex/skills/](.codex/skills/) into your own repo.
+2. Copy [AGENTS.md](AGENTS.md) and the pieces you want from [.codex/](.codex/) into your own repo.
 3. Copy [templates/repo-orientation-prompt.md](templates/repo-orientation-prompt.md) into your first real Codex session.
 4. Keep [02-working-in-a-repo/verify-before-completion.md](02-working-in-a-repo/verify-before-completion.md) open while you work.
 5. Pick the next section that matches your experience level.
@@ -59,6 +63,7 @@ Start with [05-github-workflows/README.md](05-github-workflows/README.md), then 
 - how to delegate bounded work when parallelism actually helps
 - how to choose between CLI, IDE, cloud, GitHub, and integration-backed workflows
 - how to use GitHub-native `@codex` review and follow-up tasks without skipping human review
+- how to choose safe approval, sandbox, rules, and hook defaults before you automate
 - how to use MCP and automation without losing review discipline
 - how to review, verify, and ship changes without skipping evidence
 
@@ -72,7 +77,7 @@ Start with [05-github-workflows/README.md](05-github-workflows/README.md), then 
 - [04-subagents/](04-subagents/): explicit delegation patterns
 - [05-github-workflows/](05-github-workflows/): review, GitHub-native cloud tasks, CI, and publishing
 - [06-connectors-and-tools/](06-connectors-and-tools/): MCP and connector-backed workflows
-- [07-openai-adjacent/](07-openai-adjacent/): Codex surfaces and configuration boundaries
+- [07-openai-adjacent/](07-openai-adjacent/): Codex surfaces, configuration, approvals, and hooks
 - [08-examples/](08-examples/): full workflows from start to finish
 - [09-automation/](09-automation/): GitHub Action, SDK, and non-interactive workflows
 - [templates/](templates/): prompts, checklists, and handoff artifacts

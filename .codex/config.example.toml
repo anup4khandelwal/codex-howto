@@ -1,0 +1,29 @@
+# Copy the sections you want into ~/.codex/config.toml.
+
+# Safe daily default: editable workspace, approval on untrusted commands.
+approval_policy = "untrusted"
+sandbox_mode = "workspace-write"
+allow_login_shell = false
+
+# Let Codex treat these filenames like project instruction files.
+project_doc_fallback_filenames = ["TEAM_GUIDE.md", ".agents.md"]
+
+[features]
+codex_hooks = true
+
+# Keep network disabled by default in workspace-write mode.
+# Uncomment this only for workflows that truly need network access.
+# [sandbox_workspace_write]
+# network_access = true
+
+[profiles.readonly_quiet]
+approval_policy = "never"
+sandbox_mode = "read-only"
+
+[profiles.safe_write]
+approval_policy = "untrusted"
+sandbox_mode = "workspace-write"
+
+[profiles.full_auto]
+approval_policy = "on-request"
+sandbox_mode = "workspace-write"

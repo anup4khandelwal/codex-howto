@@ -40,6 +40,8 @@ This page is the fastest way to scan what the repository contains.
 - [07-openai-adjacent/README.md](07-openai-adjacent/README.md)
   - related official OpenAI context
   - Codex surfaces
+  - approvals and sandboxing
+  - rules and hooks
   - configuration and customization
 - [08-examples/README.md](08-examples/README.md)
   - end-to-end workflows
@@ -61,10 +63,14 @@ This page is the fastest way to scan what the repository contains.
 ## Starter Kit
 
 - [AGENTS.md](AGENTS.md): persistent repo instructions for Codex
+- [.codex/config.example.toml](.codex/config.example.toml): safe starting profiles for approvals, sandboxing, and hooks
 - [.codex/skills/issue-to-plan/SKILL.md](.codex/skills/issue-to-plan/SKILL.md): turn an issue into a bounded plan
 - [.codex/skills/fix-ci/SKILL.md](.codex/skills/fix-ci/SKILL.md): CI debugging workflow
 - [.codex/skills/review-pr/SKILL.md](.codex/skills/review-pr/SKILL.md): findings-first review workflow
 - [.codex/skills/small-feature/SKILL.md](.codex/skills/small-feature/SKILL.md): bounded feature implementation workflow
+- [.codex/rules/default.rules.example](.codex/rules/default.rules.example): example outside-sandbox command policy
+- [.codex/hooks.json.example](.codex/hooks.json.example): example hook configuration
+- [.codex/hooks/README.md](.codex/hooks/README.md): example hook scripts and patterns
 - [.github/prompts/issue-to-plan.md](.github/prompts/issue-to-plan.md): reviewable prompt contract for issue planning
 - [.github/workflows/codex-issue-plan.yml](.github/workflows/codex-issue-plan.yml): label-triggered issue-to-plan automation
 
@@ -76,6 +82,7 @@ This page is the fastest way to scan what the repository contains.
 - [08-examples/linear-to-local-finish.md](08-examples/linear-to-local-finish.md)
 - [08-examples/github-comment-to-cloud-task.md](08-examples/github-comment-to-cloud-task.md)
 - [08-examples/github-action-pr-review.md](08-examples/github-action-pr-review.md)
+- [08-examples/safe-automation-with-approvals.md](08-examples/safe-automation-with-approvals.md)
 - [08-examples/mcp-frontend-context.md](08-examples/mcp-frontend-context.md)
 
 ## Scripts

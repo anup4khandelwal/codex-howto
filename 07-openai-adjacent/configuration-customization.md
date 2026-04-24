@@ -2,7 +2,12 @@
 
 Codex customization should make good behavior repeatable without hiding task-specific judgment.
 
-## AGENTS.md and rules
+Use these pages when you need operational defaults instead of one-off advice:
+
+- [approvals-and-sandboxing.md](approvals-and-sandboxing.md)
+- [rules-and-hooks.md](rules-and-hooks.md)
+
+## AGENTS.md and project instructions
 
 Use project instructions for stable repo behavior:
 
@@ -13,6 +18,8 @@ Use project instructions for stable repo behavior:
 - review and verification expectations
 
 Keep task-specific requirements in the task prompt, not in persistent instructions.
+
+Use `AGENTS.override.md` when one subtree needs stricter local behavior than the repository root. If your repo already uses another instructions filename, add it to `project_doc_fallback_filenames` instead of duplicating guidance manually.
 
 ## MCP configuration
 
