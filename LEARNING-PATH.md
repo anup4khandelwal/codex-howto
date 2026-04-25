@@ -22,8 +22,9 @@ Start here if you already know agentic tooling but need the right mental model f
 2. [03-skills/README.md](03-skills/README.md)
 3. [04-subagents/README.md](04-subagents/README.md)
 4. [07-openai-adjacent/codex-surfaces.md](07-openai-adjacent/codex-surfaces.md)
-5. [05-github-workflows/README.md](05-github-workflows/README.md)
-6. [08-examples/review-response-workflow.md](08-examples/review-response-workflow.md)
+5. [10-playbooks/choose-the-right-surface.md](10-playbooks/choose-the-right-surface.md)
+6. [05-github-workflows/README.md](05-github-workflows/README.md)
+7. [08-examples/review-response-workflow.md](08-examples/review-response-workflow.md)
 
 Estimated time: 90 to 120 minutes
 
@@ -37,8 +38,10 @@ Start here if you want disciplined planning, review, delegation, and GitHub exec
 4. [06-connectors-and-tools/mcp-workflow.md](06-connectors-and-tools/mcp-workflow.md)
 5. [07-openai-adjacent/approvals-and-sandboxing.md](07-openai-adjacent/approvals-and-sandboxing.md)
 6. [07-openai-adjacent/rules-and-hooks.md](07-openai-adjacent/rules-and-hooks.md)
-7. [09-automation/README.md](09-automation/README.md)
-8. [08-examples/safe-automation-with-approvals.md](08-examples/safe-automation-with-approvals.md)
+7. [10-playbooks/README.md](10-playbooks/README.md)
+8. [09-automation/README.md](09-automation/README.md)
+9. [08-examples/safe-automation-with-approvals.md](08-examples/safe-automation-with-approvals.md)
+10. [08-examples/docs-update-with-validation.md](08-examples/docs-update-with-validation.md)
 
 Estimated time: 150 to 180 minutes
 
@@ -53,6 +56,7 @@ Estimated time: 150 to 180 minutes
 7. [07-openai-adjacent](07-openai-adjacent/)
 8. [08-examples](08-examples/)
 9. [09-automation](09-automation/)
+10. [10-playbooks](10-playbooks/)
 
 ## How to Use This Path
 

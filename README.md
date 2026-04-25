@@ -65,6 +65,7 @@ Start with [05-github-workflows/README.md](05-github-workflows/README.md), then 
 - how to use GitHub-native `@codex` review and follow-up tasks without skipping human review
 - how to choose safe approval, sandbox, rules, and hook defaults before you automate
 - how to use MCP and automation without losing review discipline
+- how to turn common Codex situations into repeatable playbooks
 - how to review, verify, and ship changes without skipping evidence
 
 ## Repository Map
@@ -80,6 +81,7 @@ Start with [05-github-workflows/README.md](05-github-workflows/README.md), then 
 - [07-openai-adjacent/](07-openai-adjacent/): Codex surfaces, configuration, approvals, and hooks
 - [08-examples/](08-examples/): full workflows from start to finish
 - [09-automation/](09-automation/): GitHub Action, SDK, and non-interactive workflows
+- [10-playbooks/](10-playbooks/): surface-to-workflow recipes for common Codex jobs
 - [templates/](templates/): prompts, checklists, and handoff artifacts
 - [AGENTS.md](AGENTS.md): persistent repo contract example
 - [.codex/skills/](.codex/skills/): reusable starter skill pack

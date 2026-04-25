@@ -49,6 +49,13 @@ This page is the fastest way to scan what the repository contains.
   - GitHub Action workflow
   - non-interactive workflow
   - SDK workflow
+- [10-playbooks/README.md](10-playbooks/README.md)
+  - surface selection
+  - local-to-cloud handoff
+  - visual UI changes
+  - fresh docs with web search
+  - GitHub review fix loops
+  - long-running background tasks
 
 ## Templates
 
@@ -59,6 +66,7 @@ This page is the fastest way to scan what the repository contains.
 - [templates/pr-summary-template.md](templates/pr-summary-template.md)
 - [templates/repo-orientation-prompt.md](templates/repo-orientation-prompt.md)
 - [templates/verification-checklist.md](templates/verification-checklist.md)
+- [templates/codex-task-brief-template.md](templates/codex-task-brief-template.md)
 
 ## Starter Kit
 
